@@ -10,6 +10,13 @@ body {
     rgba(50, 141, 141, 1) 100%
   );
 }
+.vector {
+  position: absolute;
+  width: 11.05px;
+  height: 5.02px;
+  border: 2px solid #323f47;
+  transform: rotate(-90deg);
+}
 
 @tailwind base;
 @tailwind components;

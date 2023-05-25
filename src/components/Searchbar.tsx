@@ -1,10 +1,13 @@
+import { length } from "@/data";
 import { SearchIcon } from "./icons";
 
 export const Searchbar = () => {
   return (
     <div className="flex flex-row justify-between items-center px-4 my-6 bg-[#ffffff] rounded-lg h-28">
       <div className="flex flex-row gap-4 items-center justify-start">
-        <p>2345 контактов</p>
+        <p className="flex flex-row gap-2 items-center">
+          <span className="text-3xl text-[#54D3C2]">{length}</span> Контактов
+        </p>
         <div className="flex flex-row px-8 rounded-full justify-start items-center bg-[#f5f5f5]">
           <SearchIcon />
           <input

@@ -38,3 +38,14 @@ export const menu = [
     icon: <StorageIcon />,
   },
 ];
+
+export const columns = [
+  { label: "№", accessor: "" },
+  { label: "Имя", accessor: "fullName" },
+  { label: "ID", accessor: "_id" },
+  { label: "Телефон", accessor: "phone" },
+  { label: "Пол", accessor: "sex" },
+  { label: "Дата рождения", accessor: "birthday" },
+  { label: "Метро", accessor: "subway" },
+  { label: "Адрес Проживания", accessor: "streetAddress" },
+];

@@ -5,8 +5,8 @@ export const SearchIcon: FunctionComponent = () => (
     xmlns="http://www.w3.org/2000/svg"
     id="search"
     version="1.1"
-    width="32"
-    height="28"
+    width="30"
+    height="30"
     viewBox="0 0 37 34"
   >
     <path d="M11.854 21.854c-5.514 0-10-4.486-10-10s4.486-10 10-10 10 4.486 10 10-4.486 10-10 10zm0-18c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.588-8-8-8z"></path>

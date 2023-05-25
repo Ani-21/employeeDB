@@ -2,8 +2,8 @@ import { FunctionComponent } from "react";
 
 export const StorageIcon: FunctionComponent = () => (
   <svg
-    width="33"
-    height="34"
+    width="30"
+    height="30"
     viewBox="0 0 33 34"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

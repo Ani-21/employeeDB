@@ -2,9 +2,9 @@ import { FunctionComponent } from "react";
 
 export const ArchiveIcon: FunctionComponent = () => (
   <svg
-    width="33"
+    width="30"
     height="30"
-    viewBox="0 0 33 30"
+    viewBox="0 0 30 30"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >

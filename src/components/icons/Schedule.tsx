@@ -2,8 +2,8 @@ import { FunctionComponent } from "react";
 
 export const ScheduleIcon: FunctionComponent = () => (
   <svg
-    width="32"
-    height="28"
+    width="30"
+    height="30"
     viewBox="0 0 32 28"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

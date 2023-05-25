@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 
 export const EmployeesIcon: FunctionComponent = () => (
   <svg
-    width="42"
+    width="30"
     height="30"
     viewBox="0 0 42 30"
     fill="none"

@@ -1,5 +1,4 @@
 import { menu } from "@/constants";
-import { ChartIcon } from "./icons";
 
 export const ProfileHeader = () => {
   return (
@@ -10,8 +9,11 @@ export const ProfileHeader = () => {
       </div>
       <nav className="flex">
         <ul className="flex flex-row justify-between items-center list-none">
-          {menu.map((item) => (
-            <li className="my-4 py-2 px-2 rounded-md cursor-pointer hover:bg-[#A9E9E0]">
+          {menu.map((item, i) => (
+            <li
+              key={i}
+              className="my-4 py-2 px-2 rounded-md cursor-pointer hover:bg-[#A9E9E0]"
+            >
               {item.title}
             </li>
           ))}
